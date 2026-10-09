@@ -1,0 +1,161 @@
+*
+{
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.Habilidades
+{
+    margin-left: 8%;
+    margin-top: 8%;
+    font-size: 1.6em;
+    
+}
+
+.c, .html
+{
+    width: 16%;
+    height: 25%;
+    background-color: #c3ccfd00;
+    margin-left: 8%;
+    margin-top: 4%;
+    border: 4px solid rgb(0, 38, 163);
+    border-radius: 6%;
+}
+
+.js
+{
+    width: 16%;
+    height: 25%;
+    background-color: #c3ccfd00;
+    margin-left: 26%;
+    margin-top: -34%;
+    border: 4px solid rgb(0, 38, 163);
+    border-radius: 6%;
+    
+}
+
+
+.css
+{
+    width: 16%;
+    height: 25%;
+    background-color: #7f8dda00;
+    margin-left: 26%;
+    margin-top: 4.2%;
+    border: 4px solid rgb(0, 38, 163);
+    border-radius: 6%;
+}
+
+.outra
+{
+    width: 30%;
+    height: 30%;
+    background-color: #c3ccfd00;
+    margin-left: 50%;
+    margin-top: -28%;
+    border: 4px solid rgb(0, 38, 163);
+    border-radius: 6%;
+}
+
+/* div1 */
+.csharp
+{
+    width: 70%;
+    margin-left: 14%;
+}
+
+.em
+{
+    font-size: 0.7em;
+    margin-left: 15%;
+    margin-top: -4%;
+    color: rgb(255, 255, 255);
+}
+
+#barra
+{
+    margin-left: 3%;
+    margin-top: -10%;
+}
+
+#porcentagem
+{
+    color: rgb(255, 255, 255);
+   font-size: 0.9em;
+    margin-left: 4%;
+}
+
+/* div2 */
+
+.icon
+{
+    width: 55%;
+    margin-left: 23%;
+    margin-top: 3%;
+}
+
+.em2
+{
+    font-size: 0.7em;
+    margin-left: 15%;
+    color: rgb(255, 255, 255);
+}
+
+/* div3 */
+.icon2
+{
+    width: 90%;
+    margin-top: 7%;
+    margin-left: 3%;
+}
+
+#porcentagem2
+{
+    color: rgb(255, 255, 255);
+    margin-top: -1%;
+    font-size: 0.9em;
+}
+
+/* div5 */
+
+.my
+{
+    margin-left: 7%;
+    color: rgb(255, 255, 255);
+    font-size: 1em;
+}
+
+#barra2
+{
+    margin-left: 7%;
+   margin-top: -3%;
+    position: absolute;
+}
+
+#porcentagem3
+{
+    color: rgb(255, 255, 255);
+    margin-top: -3.2%;
+    margin-left: 19%;
+    font-size: 0.9em;
+    position: absolute;
+}
+
+#porcentagem4
+{
+    color: rgb(255, 255, 255);
+    margin-top: -3%;
+    margin-left: 7%;
+    font-size: 0.9em;
+    position: absolute;
+}
+
+#porcentagem5
+{
+    color: rgb(255, 255, 255);
+    margin-top: -3%;
+    margin-left: 9%;
+    font-size: 0.9em;
+    position: absolute;
+}

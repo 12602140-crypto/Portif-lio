@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>portifólio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="contato.css">
+</head>
+
+<body>
+  <img src="logo.png" id="logo">
+  <main class="portfolio-content" class="hidden">
+    <ul>
+      <li><a href="index.html"><img src="Home.png" alt=""></a></li>
+      <li>
+        <a href="busca.html">
+          <div class="pesquisa"><img src="Search.png" alt=""></div>
+        </a>
+      </li>
+      <li id="contato"> <a href="contato.html">Entre em contato</a></li>
+      <li id="perfil"><a href="perfil.html">Perfil</a></li>
+    </ul>
+  </main>
+
+  <main class="layout-container">
+
+    <div class="esquerda">
+      <h2 id="Minha">Minha Biblioteca</h2>
+      <div><img src="Book.png" class="livro"></div>
+
+      <div class="div-projetos">
+        <input type="checkbox" class="selecionarProjetos" data-target="painel-projeto1">
+        <img src="capafoto.png" alt="Capa do Álbum" class="cover" />
+        <h4 class="pro">edição</h4>
+      </div>
+      <br>
+      <div class="div-projetos">
+        <input type="checkbox" class="selecionarProjetos" data-target="painel-projeto2">
+        <img src="capac.png" class="cover2">
+        <h4 class="pro">projeto em c#</h4>
+      </div>
+      <br>
+      <div class="div-projetos">
+        <input type="checkbox" class="selecionarProjetos" data-target="painel-projeto1">
+        <img src="html.png" class="cover3">
+        <h4 class="pro">projeto em html e css</h4>
+      </div>
+      <br>
+      <div class="div-projetos">
+        <img src="" alt="">
+        <input type="checkbox" class="selecionarProjetos" data-target="painel-projeto2">
+        <img src="mysql.png" class="cover3">
+        <h4 class="pro3">projeto no Mysql</h4>
+      </div>
+
+      <a href="">
+        <div class="lingua">
+          <div class="global"><img src="language.png"></div>
+          <p class="lingua2">Português do Brasil</p>
+        </div>
+      </a>
+    </div>
+
+      <div id="caixa">
+        <div class="direita">
+          <div id="cont">
+            <form id="meuFormulario">
+              <input type="text" id="nome" placeholder="Digite seu nome">
+              <input type="email" id="email" placeholder="Digite seu e-mail">
+              <input type="text" id="mensagem" placeholder="mensagem">
+              <button type="submit" id="enviar">Enviar</button>
+            </form>
+          </div>
+
+          <h2 class="Entre">Entre em contato</h2>
+          <p class="informação"> gostou do que leu? entre em contato!</p>
+
+          <h2 class="redes">Minhas redes sociais</h2>
+          <a href=""><img src="Github.png" class="git">
+            <img src="Ellipse 12.png" class="bola">
+            <h5 class="letra">GitHub</h5>
+          </a>
+
+          <a href="">
+            <img src="Instagram.png" class="insta">
+            <h5 class="letra2">Instagram</h5>
+          </a>
+
+          <a href="">
+            <img src="Linkedin.png" class="link">
+            <img src="Rectangle 37.png" class="retangulo">
+            <h5 class="letra">Linkedln</h5>
+          </a>
+
+          <a href="">
+            <img src="Phone.png" class="Phone">
+            <img src="Ellipse 12.png" class="bola2">
+            <h5 class="letra">Telefone</h5>
+
+          </a>
+
+        
+          <div id="modalAviso" class="modal">
+            <div class="modal-conteudo">
+              <p>Por favor, preencha todos os campos antes de enviar!</p>
+              <button id="fecharModal">OK</button>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+   
+  </main>
+
+
+
+
+  <script src="script.js"></script>
+</body>
+
+</html>
